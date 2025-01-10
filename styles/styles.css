@@ -1,0 +1,206 @@
+.fira-sans {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header nav h3 {
+  font-size: 32px;
+}
+header nav button {
+  padding: 15px 30px;
+  color: #006a50;
+  font-size: 18px;
+  border: 2px solid #006a50;
+  background-color: transparent;
+  border-radius: 8px;
+  margin: 24px 0;
+  font-weight: 600;
+}
+header nav button:hover {
+  background-color: #006a50;
+  color: white;
+  transition: 0.6s;
+  cursor: pointer;
+}
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+section img {
+  width: 475px;
+}
+
+.hero {
+  background-color: #c3e4d7;
+  padding: 117px 60px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 64px;
+  border-radius: 24px;
+}
+section .hero-title {
+  font-size: 24px;
+  font-weight: 500px;
+  color: #697972;
+}
+
+section .hero-description {
+  font-size: 56px;
+  font-weight: bold;
+  padding: 16px 0px 24px 0;
+}
+
+section .card-container {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+  justify-content: space-between;
+}
+section .pillars-card {
+  width: 302px;
+  padding: 24px;
+  border-radius: 16px;
+  border: 2px solid #dbdbdb;
+  background-color: white;
+}
+section .pillars-card:hover {
+  background-color: #c3e4d7;
+  transition: 0.4s ease;
+  cursor: default;
+  border: 2px solid black;
+}
+
+section .vision-card {
+  width: 410px;
+  padding: 34px;
+  border-radius: 16px;
+  border: 2px solid transparent;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+}
+section .vision-card:hover {
+  border: 2px solid black;
+}
+.vision-card:nth-child(1) {
+  background-color: #d5e1f4;
+}
+.vision-card:nth-child(2) {
+  background-color: #c3e4d7;
+}
+
+.vision-card:nth-child(3) {
+  background-color: #f7ebd1;
+}
+
+.vision-card button {
+  padding: 11px 20px;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+/* shared items */
+
+.btn {
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  color: white;
+  border: none;
+}
+
+.green-btn {
+  background-color: #006a52;
+  border: 2px solid #006a52;
+}
+.green-btn:hover {
+  background: transparent;
+  transition: 0.6s;
+  color: black;
+  cursor: pointer;
+}
+.blue-btn{
+  background-color: #558FF0;
+  border: 2px solid #558FF0;
+}
+.blue-btn:hover{
+  background: transparent;
+  color: black;
+  transition: 0.6s;
+}
+
+.light-green-btn{
+  background-color: #00A062;
+  border: 2px solid #00A062;
+}
+.light-green-btn:hover{
+  background: transparent;
+  color: black;
+  transition: 0.6s;
+}
+
+
+.orange-btn{
+  background-color: #FFC34C;
+  border: 2px solid #FFC34C;
+}
+.orange-btn:hover{
+  background: transparent;
+  color: black;
+  transition: 0.6s;
+}
+
+
+
+.section-title {
+  padding: 80px 0 32px 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-description {
+  font-size: 16px;
+  color: #535353;
+  padding-bottom: 32px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 24px 0;
+  color: #3e3e3e;
+}
+.card-description {
+  font-size: 16px;
+  color: #565656;
+  flex-grow: 1;
+}
+
+.card-image {
+  height: 64px;
+  width: 64px;
+}
