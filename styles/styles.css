@@ -127,7 +127,7 @@ section .vision-card:hover {
   width: 100%;
   margin-top: 32px;
   padding: 48px 24px;
-  background-image: url("/assets/quote-bg.png");
+  background-image: url("../assets/quote-bg.png");
   background-position: top 25px left 25px;
   background-repeat: no-repeat;
   border: 2px solid #dbdbdb;
