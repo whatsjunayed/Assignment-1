@@ -382,7 +382,9 @@ footer img {
   color: black;
   transition: 0.6s;
 }
-
+.text-center{
+  text-align: center;
+}
 .section-title {
   padding: 80px 0 32px 0;
   font-size: 40px;
